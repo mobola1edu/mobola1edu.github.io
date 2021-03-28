@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto & display = swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background: #1b1b1b;
+  }
+
+input, button, textarea {
+  font-family: inherit; 
+  }
+
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0; }
+
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+section {
+  padding-top: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  word-spacing: 1px;
+}
+
+/* MAIN SECTION
+================================= */
+
+.main {
+  background: #1b1b1b;
+}
+
+.container {
+  width: 1130px;
+  margin: -30 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main__page p {
+  padding-top: 10px;
+  width: 300px;
+  text-align: left;
+  line-height: 22px;
+}
+
+.page__link {
+  margin-top: 20px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.link__virus {
+  padding: 5px 15px;
+  width: 100px;
+  background-color: #394eff;
+  border: 1px solid #394eff;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.link__download {
+  margin-top: 20px;
+  padding: 5px 15px;
+  width: 100px;
+  border: 1px solid #ffc107;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #ffc107;
+  transition: 0.3s;
+}
+
+.link__virus:hover {
+  background-color: #2734a0;
+  transition: opacity 0.3s;
+  transition: 0.3s;
+}
+
+.link__download:hover {
+  background-color: #ffc107;
+  color: #fff;
+  transition: opacity 0.3s;
+  transition: 0.3s;
+}
+
+.page__column {
+  text-align: center;
+  border: 6px solid #565656;
+  padding: 8px 15px;
+  justify-content: space-around;
+  margin-right: 20px;  background: #313131;
+  color: #e0e0e0;
+}
+
+.page__column:first-child {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.page__column:nth-child(2) {
+  border-top: 0;
+}
+
+.page__column:last-child {
+    border-radius: 0px 0px 15px 15px;
+    border-top: 0;
+    margin-bottom: 50px;
+}
+
+/*================Panel navigation================*/
+
+.topnav {
+    overflow: hidden;
+    display: flex;
+    background-color: #333;
+    position: fixed;
+    opacity: 1.5;
+    background: rgb(255 255 255 / 0%);
+    backdrop-filter: blur(5px);
+    top: 0;
+    left: -2;
+    right: 0;
+    height: 50px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  background-color: rgb(255 255 255 / 0%);
+  margin: 0px 0px 0px 8px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #4a4a4a;
+  color: white;
+}
+
+/*================Panel navigation================*/
+
+.size {
+  margin-left: 65px;
+}
